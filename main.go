@@ -11,7 +11,7 @@ var notify *notificator.Notificator
 func main() {
 	title := "schoolbell"
 	message := "Switch to next topic in study plan."
-	iconpath := "/home/rbrown/Pictures/amar-School-Bell-300px.png"
+	iconpath := "/home/rbrown/go/src/github.com/n6s/schoolbell"
 	for {
 		notifyMe(title, message, iconpath)
 
